@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="com.rho.cardreader"
+      android:versionCode="1"
+      android:versionName="1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+    <application android:icon="@drawable/icon" android:label="@string/app_name" android:debuggable="false">
+		<service android:name="com.rho.cardreader.services.MSRService"></service>		
+        <uses-library android:name="com.motorolasolutions.emdk.msr" android:required="false" /> 
+    </application>
+</manifest> 
